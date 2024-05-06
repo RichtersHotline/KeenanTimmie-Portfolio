@@ -98,9 +98,26 @@ padding:20px;
 
     }
 
+/* Resume Styling */
+
+#ResumeCon {
+
+    background-color:#472E49;
 
 
-    
+}
+#Block {
+
+    background-color:#4C314D;
+
+}
+.btn {
+
+background-color:#332234;
+color:#9E8BA0;
+
+}
+    /*  */
 
 
     .dropdown-menu {
