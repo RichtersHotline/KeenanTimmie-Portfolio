@@ -6,3 +6,44 @@ padding: 0;
 box-sizing:border-box;
 
 }
+
+:is(body) {
+
+    font-family: "Inter", sans-serif;
+    background-color:#332234;
+}
+
+/* Navbar and Footer Styling */
+:is(.navbar, footer) {
+    background-color:#543656;
+}
+:is(.nav-link) {
+
+    color:white;
+    }
+    
+    .nav-link:hover {
+
+color:#9d5ea2;
+text-decoration: underline;
+
+
+    }
+    .nav-link:active {
+
+        color:#2a1b2b;
+
+    }
+    
+
+
+    .dropdown-menu {
+
+        background-color:#543656;
+    }
+    .dropdown-item {
+    
+        color:white;
+    }
+
+    /*  */
