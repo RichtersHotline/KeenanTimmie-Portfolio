@@ -29,6 +29,13 @@ text-decoration: underline;
 
 
     }
+    img[alt="logo"] {
+
+    width:9rem;
+    object-fit:cover;
+    object-position:center;
+
+    }
     .nav-link:active {
 
         color:#2a1b2b;
