@@ -21,6 +21,13 @@ animation-fill-mode:forwards;
 :is(.navbar, footer) {
     background-color:#543656;
 }
+
+.navbar {
+
+position: -webkit-sticky;
+position:sticky;
+top:0;
+}
 :is(.nav-link) {
 
     color:white;
@@ -62,11 +69,37 @@ height:30rem;
     object-position:center;
 
     }
+    img[alt="AboutPhoto"] {
+        height:31rem;
+                width:31rem;
+                object-fit:cover;
+                object-position:center;
+
+    }
+    /*  */
     .nav-link:active {
 
         color:#2a1b2b;
 
     }
+
+    /* About Me Styling */
+    #AboutMe {
+        background-color:#472E49;
+        padding:20px;
+
+    }
+    #AboutMe p {
+background-color:#332234;
+width:48rem;
+padding:20px;
+
+
+
+    }
+
+
+
     
 
 
