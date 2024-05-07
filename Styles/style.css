@@ -70,8 +70,8 @@ height:30rem;
 
     }
     img[alt="AboutPhoto"] {
-        height:31rem;
-                width:31rem;
+        height:20.5rem;
+                width:20.5rem;
                 object-fit:cover;
                 object-position:center;
 
@@ -103,19 +103,32 @@ padding:20px;
 #ResumeCon {
 
     background-color:#472E49;
-
+    padding:20px;
 
 }
 #Block {
 
     background-color:#4C314D;
+    padding:20px;
 
 }
 .btn {
 
 background-color:#332234;
 color:#9E8BA0;
+box-shadow:2px 2px 5px #332234;
 
+
+}
+.btn:hover {
+
+    background-color:#251627;;
+ color:white;
+
+ &:active {
+
+    color:white;
+ }
 }
     /*  */
 
