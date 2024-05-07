@@ -205,18 +205,36 @@ img[alt="Skimage"] {
 
 }
 img[alt="Eduimage"] {
- 
-             
-         
-            object-fit:cover;
-            object-position:center;
+  
+    object-fit:cover;
+    height:15rem;
+    width:100%
         
          
+}
+h3.card-title {
+
+    font-weight:lighter;
 }
 .card-body {
 
     background-color:#332234;
     color:#9E8BA0;
+
+
+}
+.card-text {
+    background-color:#1f121f;
+/*  #271727;  */
+}
+.card {
+    opacity:0.5;
+    transition:2s;
+}
+.card:hover {
+
+    transform:scale(1.1,1.1);
+opacity:1;
 
 
 }
