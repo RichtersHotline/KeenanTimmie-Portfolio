@@ -23,6 +23,16 @@ animation-direction:alternate;
     background-color:#543656;
 }
 
+span::before {
+
+    content:"aspiring";
+    animation-name:LandingAnim;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    transition:2s;
+}
+
 .navbar {
 
 position: -webkit-sticky;
@@ -51,7 +61,7 @@ text-decoration: underline;
         }
        
         100% {
-
+           
             opacity:1;
             
         }
@@ -67,6 +77,29 @@ to {
 }
 
    }
+
+   /* @keyframes LandingAnim { 
+   0% {
+   
+color:white;
+content: "Learner";
+
+   }
+   50% {
+   
+    color:white;
+    content: "Coder";
+   }
+
+100% {
+   transform::rotate(3 3);
+  color:orangered;
+    content: "Developer";
+
+
+}
+*/
+   
     /* image styling */
     img[alt="LandingPagePhoto"] {
 height:30rem;
