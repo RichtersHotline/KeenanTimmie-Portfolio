@@ -23,15 +23,7 @@ animation-direction:alternate;
     background-color:#543656;
 }
 
-span::before {
 
-    content:"aspiring";
-    animation-name:LandingAnim;
-    animation-duration:10s;
-    animation-iteration-count:infinite;
-    animation-direction:alternate;
-    transition:2s;
-}
 
 .navbar {
 
@@ -204,6 +196,29 @@ img[alt="Skimage"] {
             animation-iteration-count: infinite;
             animation-direction:alternate;
          
+}
+/* Education Styling */ 
+
+.EduCon {
+
+ background-color:#472E49; 
+
+}
+img[alt="Eduimage"] {
+ 
+             
+         
+            object-fit:cover;
+            object-position:center;
+        
+         
+}
+.card-body {
+
+    background-color:#332234;
+    color:#9E8BA0;
+
+
 }
 
     .dropdown-menu {
