@@ -238,15 +238,23 @@ opacity:1;
 
 
 }
+/* Work Experience */
 
-    .dropdown-menu {
+.WorkCon {
 
-        background-color:#543656;
-    }
-    .dropdown-item {
-    
-        color:white;
-    }
+background-color:#472E49; 
+
+
+}
+.list-group-item {
+
+    background-color:#281A29;
+   color:#9E8BA0;
+   border-color:fuchsia;
+}
+
+
+
 
     h1 ~ h2 {
 
