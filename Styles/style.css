@@ -300,6 +300,46 @@ width:4rem;
 
 }
 
+/* Testimonial Styling */
+
+.TesCon {
+
+
+    background-color:#472E49; 
+
+
+}
+
+
+img[alt="Tesimage"] {
+  
+    width:11rem;
+    object-fit:cover;
+    object-position:center;
+
+        
+         
+}
+.TesCon p {
+
+background-color:#332234;
+padding:20px;
+width:48rem;
+    
+}
+.TesCon img {
+
+
+    border:5px solid #332234;
+
+}
+
+
+
+
+
+
+/*  */
 h3 {
 
 
