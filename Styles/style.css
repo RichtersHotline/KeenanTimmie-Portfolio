@@ -402,4 +402,22 @@ left: 0;
 
 
 }
+
+/* */
+
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+
+#AboutMe p  {
+   width:50%;
+}
+#AboutMe img {
+
+width:70%;
+height:70%;
+
+}
+
+}
     /*  */
