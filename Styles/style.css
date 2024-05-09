@@ -7,6 +7,11 @@ box-sizing:border-box;
 
 }
 
+h1 ~ h2 {
+
+    font-weight:lighter;
+        }
+    
 :is(body) {
 
     font-family: "Inter", sans-serif;
@@ -380,15 +385,21 @@ padding:10px;
 }
 
 /*  */
-h3 {
 
 
-    
+/* Footer Styling */
+
+footer {
+
+    bottom: 900;    
+
+height:auto;
+width: 100%;
+position: absolute;
+left: 0;
+
+
+
+
 }
-
-    h1 ~ h2 {
-
-font-weight:lighter;
-    }
-
     /*  */
