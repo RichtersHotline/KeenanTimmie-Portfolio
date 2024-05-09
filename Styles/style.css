@@ -335,9 +335,49 @@ width:48rem;
 }
 
 
+/* Reach Me Styling */
+
+.ReachCon {
+    padding:10px;
+    background-color:#472E49; 
+}
+.MessageBox {
+
+background-color:#332234;
+
+}
+#TxtBox { 
+
+width:98%;
+height:2.9rem;
+border-radius:19px;
+background-color:#472E49;
+box-shadow:2px 2px 5px black;
+border:none;
+
+}
+
+input:focus {
+
+    color:fuchsia;
+    padding:10px;
+}
+.btn3 {
+color:#6B536C;
+    border-radius:19px;
+background-color:#472E49;
+box-shadow:2px 2px 5px black;
+border:none;
+width:17%;
+height:2.7rem;
+}
+::placeholder {
+
+color:#6B536C;
+padding:10px;
 
 
-
+}
 
 /*  */
 h3 {
