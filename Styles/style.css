@@ -447,6 +447,29 @@ width:11.5rem;
 
 
 }
+img[alt="LandingPagePhoto"] {
+    width:2.5rem;
+            object-fit:cover;
+            object-position:center;
+        
+            }
 
+           .bi {
+
+display:none;
+
+           }
+
+           .btn {
+
+            font-size:9px;
+            
+            }
+            #Block {
+
+
+            }
 }
+
+
     /*  */
